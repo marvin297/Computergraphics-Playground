@@ -1,6 +1,7 @@
 # Computergraphics Playground
 ## for exploring different topics in cgi
-to clone this repository run: git clone --recursive https://xyz
+to clone this repository run: 
+"git clone --recursive https://github.com/marvin297/Computergraphics-Playground.git"
 
 See the [Walnut](https://github.com/TheCherno/Walnut) repository for more details.
 
