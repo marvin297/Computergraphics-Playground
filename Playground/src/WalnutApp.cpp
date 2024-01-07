@@ -15,6 +15,7 @@ public:
 	{
 		ImGui::Begin("Hello");
 		ImGui::Button("Button");
+		ImGui::Text("FPS: %.0f", 1000.0f/(float)m_LastRenderTime);
 		ImGui::Text("render time: \n%.2fms", m_LastRenderTime);
 		ImGui::End();
 

@@ -15,6 +15,9 @@ public:
 
 private:
 	uint32_t PerPixel(glm::vec2 coordinate);
+	void ApplyAntialiasing();
+	uint32_t AverageColor(uint32_t x, uint32_t y);
+	uint32_t BlendColors(uint32_t color1, uint32_t color2, float blendFactor);
 
 private:
 	std::shared_ptr<Walnut::Image> m_FinalImage;
